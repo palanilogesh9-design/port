@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Logesh B | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <h1>Logesh B</h1>
+        <p>BCA Student | Sankara Arts College</p>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">Web Portfolio</p>
+          <h2>Hi, I’m Logesh.</h2>
+          <p>I am a BCA student at Sankara Arts College, passionate about web design, front-end development, and building clean user experiences.</p>
+          <a class="button" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>About Me</h2>
+      <p>I am studying Bachelor of Computer Applications and learning HTML, CSS, and JavaScript to build responsive websites and interactive web applications.</p>
+    </section>
+
+    <section id="education" class="section container cards">
+      <div class="card">
+        <h3>Education</h3>
+        <p><strong>Sankara Arts College</strong></p>
+        <p>BCA (Bachelor of Computer Applications)</p>
+        <p>Focus: Web development, programming, and software applications.</p>
+      </div>
+      <div class="card">
+        <h3>Goals</h3>
+        <p>To become a skilled front-end developer and create websites that are easy to use, visually appealing, and mobile-friendly.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Responsive Design</div>
+        <div class="skill">UI Layout</div>
+        <div class="skill">Version Control</div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container contact-section">
+      <h2>Contact</h2>
+      <p>Want to connect? Send a message or reach out through your preferred channel.</p>
+      <form id="contactForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name" required />
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="you@example.com" required />
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" placeholder="Write a message..."></textarea>
+        <button type="submit">Send Message</button>
+        <p id="formMessage" class="form-message"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Logesh B. BCA Student, Sankara Arts College.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
